@@ -9,10 +9,15 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>quaver, api</PackageTags>
     <Description>A C# API wrapper for the game quaver.</Description>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <Content Include="../README.md">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+    </Content>
   </ItemGroup>
 
 </Project>
