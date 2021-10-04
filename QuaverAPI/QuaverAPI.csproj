@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Company />
+    <Authors>elainaaa</Authors>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/elainaaa/cs-quaverapi</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>quaver, api</PackageTags>
+    <Description>A C# API wrapper for the game quaver.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
