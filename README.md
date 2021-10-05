@@ -1,5 +1,6 @@
 # cs-quaverapi
 A C# API wrapper for the game [quaver](https://quavergame.com)
+[Package Reference](https://www.fuget.org/packages/QuaverAPI)
 
 ## Installation
 ### NuGet
