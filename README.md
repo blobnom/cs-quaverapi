@@ -1,4 +1,4 @@
-# cs-quaverapi
+# cs-quaverapi (doesnt work atm, trying to fix)
 A C# API wrapper for the game [quaver](https://quavergame.com)
 
 ## Installation
