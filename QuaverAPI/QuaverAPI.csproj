@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -8,16 +8,14 @@
     <RepositoryUrl>https://github.com/elainaaa/cs-quaverapi</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>quaver, api</PackageTags>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
     <Description>A C# API wrapper for the game quaver.</Description>
-    <Version>1.0.2</Version>
+    <Version>1.0.5</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <Content Include="../README.md">
-      <Pack>true</Pack>
-      <PackagePath>\</PackagePath>
-    </Content>
+    <None Include="docs\readme.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
